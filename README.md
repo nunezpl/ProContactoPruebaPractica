@@ -1,22 +1,31 @@
 # ProContactoPruebaPractica
 Evaluación práctica de reclutamiento para la empresa ProContacto
 
-¿Qué te motivó a elegir tu carrera profesional? 
 
-Los diferentes campos de aplicación, la variedad de trabajo que puede haber y las diferentes modalidades, que es algo internacional 
+# Preguntas iniciales
 
-¿Qué esperas aprender o lograr en este nuevo rol? 
+### 1. ¿Qué te motivó a elegir tu carrera profesional?
 
-Espero mejorar mis habilidades como  
+Elegí mi carrera profesional porque me apasiona la diversidad de aplicaciones que ofrece, la variedad de trabajos que puedo realizar y las diferentes modalidades en las que puedo trabajar. Además, me motiva saber que es un campo con un alcance internacional, lo que me permite colaborar con personas de todo el mundo.
 
-¿Cómo te mantenes actualizado en tu campo profesional? 
+### 2. ¿Qué esperas aprender o lograr en este nuevo rol?
 
-Escuchando activamente a diferentes colegas y leyendo noticias tecnológicas 
+En este nuevo rol, espero mejorar y expandir mis habilidades técnicas y profesionales. Mi objetivo es aprender nuevas tecnologías y metodologías, mejorar mis capacidades de resolución de problemas y contribuir de manera significativa a los proyectos del equipo. También busco desarrollar mis habilidades de liderazgo y comunicación para poder colaborar de manera más efectiva con mis colegas y avanzar en mi carrera.
 
-¿Qué valores personales consideras importantes en el ámbito laboral? 
+### 3. ¿Cómo te mantienes actualizado en tu campo profesional?
 
-Responsabilidad, proactividad, manejo del tiempo, respeto y amabilidad 
+Me mantengo actualizada en mi campo profesional de varias maneras. Escucho activamente a colegas y expertos en la industria, participando en discusiones y foros. Además, leo regularmente noticias tecnológicas, blogs especializados y artículos académicos.
 
+### 4. ¿Qué valores personales consideras importantes en el ámbito laboral?
+
+Considero que varios valores personales son cruciales en el ámbito laboral:
+- **Responsabilidad**: Cumplir con mis obligaciones y compromisos de manera efectiva.
+- **Proactividad**: Anticipar problemas y necesidades, y tomar la iniciativa para abordarlos.
+- **Manejo del tiempo**: Priorizar tareas y gestionar mi tiempo eficientemente para maximizar la productividad.
+- **Respeto**: Tratar a todos mis colegas con dignidad y consideración.
+- **Amabilidad**: Fomentar un ambiente de trabajo positivo y colaborativo mediante la cortesía y el apoyo mutuo.
+
+<!-- Agrega dos líneas en blanco entre las secciones -->
 
 # Ejercicio 2: Comprensión del Protocolo HTTP
 
@@ -110,4 +119,9 @@ REST (Representational State Transfer) es un estilo arquitectónico para servici
 ## 11. ¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 Los headers en un request son pares clave-valor que proporcionan información adicional sobre la solicitud, como el tipo de contenido, autenticación, longitud del contenido, etc. El key Content-Type se utiliza para especificar el tipo de contenido del cuerpo de la solicitud o respuesta, por ejemplo, application/json para JSON, text/html para HTML, etc.
 
+
+
+<!-- Agrega dos líneas en blanco entre las secciones -->
+
+# Ejercicio 3: Postman
 
