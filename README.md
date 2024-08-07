@@ -1,6 +1,14 @@
 # ProContactoPruebaPractica
 Evaluación práctica de reclutamiento para la empresa ProContacto
 
+# Índice
+
+1. [Ejercicio 2: Comprensión del Protocolo HTTP](#ejercicio-2-comprensión-del-protocolo-http)
+2. [Ejercicio 3: Postman](#ejercicio-3-postman)
+3. [Ejercicio 4: Trailhead](#ejercicio-4-trailhead)
+4. [Ejercicio 5: Objetos de Salesforce](#ejercicio-5-objetos-de-salesforce)
+5. [Ejercicio 6: Sales force](#ejercicio-6-sales-force)
+
 
 # Preguntas iniciales
 
@@ -131,11 +139,18 @@ Los headers en un request son pares clave-valor que proporcionan información ad
 Realiza una solicitud GET a la siguiente URL para obtener los datos actuales:
 https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
-![Ejercicio 3 punto 1.jpg](Ejercicio 3 punto 1.jpg)
+![Ejercicio 3 punto 1.jpg](Ejercicio3punto1.jpg)
 
-## 2. Realizar un request POST a la URL anterior, y con body: 
+## 2. Realizar un request POST a la URL anterior con body 
 
-## 3. Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json 
+![Ejercicio 3 punto 2.jpg](Ejercicio3punto2.jpg)
+
+## 3. Realizar nuevamente un request GET
+
+Realiza una solicitud GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json 
+
+![Ejercicio 3 punto 3.jpg](Ejercicio3punto3.jpg)
+
 
 ## ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 
@@ -143,3 +158,85 @@ La petición POST realizada en el punto 2 añade nuevos datos a la base de datos
 
 
 
+<!-- Agrega dos líneas en blanco entre las secciones -->
+
+# Ejercicio 4: Trailhead
+
+Para observar el progreso en el desarrollo de los módulos de introducción, puedes visitar el perfil público en Trailhead:
+
+[Perfil de Trailhead](https://www.salesforce.com/trailblazer/jpp673nq2uxfg83osl)
+
+
+<!-- Agrega dos líneas en blanco entre las secciones -->
+
+# Ejercicio 5: Objetos de Salesforce
+
+A continuación, se explica cada objeto de Salesforce, los datos que almacenan de forma estándar y cómo se relacionan entre sí:
+
+1. Lead: representa a una persona o empresa que ha mostrado interés en los productos o servicios de una empresa, pero que aún no se ha convertido en cliente.
+   - Los Leads pueden convertirse en **Contactos** y **Oportunidades**.
+
+3. Account: representa una empresa, organización o persona que tiene una relación con la empresa. Hay diferentes tipos de cuenta (Cliente, Proveedor).
+   - Las Accounts pueden tener varios **Contactos** y **Oportunidades**.
+   - Las Accounts pueden tener **Casos** y **Artículos** asociados.
+
+4. Contact: representa a una persona que está asociada con una Account.
+   - Los Contacts están asociados a una **Account**.
+   - Los Contacts pueden estar involucrados en **Oportunidades** y **Casos**.
+
+5. Opportunity: representa una venta potencial o un acuerdo con un cliente. Tiene una Stage que es la etapa de la oportunidad (Prospecto, Negociación).
+   - Las Opportunities están relacionadas con **Accounts** y **Contacts**.
+   - Las Opportunities pueden tener **Quotes** y **Products** asociados.
+
+6. Product: representa un artículo o servicio que la empresa ofrece.
+   - Los Products se pueden incluir en **PriceBooks**.
+   - Los Products pueden ser parte de **Quotes** y **Opportunities**.
+
+7. PriceBook: contiene una lista de precios para productos o servicios ofrecidos por la empresa.
+   - Los PriceBooks contienen **Products** con precios específicos.
+   - Los PriceBooks se usan en **Quotes** y **Opportunities** para determinar los precios.
+
+8. Quote: representa una oferta formal de precios y productos para una oportunidad.
+   - Los Quotes están asociados con **Opportunities** y **PriceBooks**.
+   - Los Quotes incluyen **Products**.
+
+9. Asset: representa un producto o servicio que ha sido adquirido por un cliente y que está en uso.
+   - Los Assets están asociados con **Accounts** y **Products**.
+   - Los Assets pueden tener **Cases** relacionados.
+
+10. Case: representa un problema o solicitud de soporte que un cliente ha presentado.
+    - Los Cases están asociados con **Accounts** y **Contacts**.
+    - Los Cases pueden estar relacionados con **Assets**.
+
+11. Article: documento de conocimiento utilizado para proporcionar información y soluciones a problemas comunes.
+    - Los Articles pueden estar vinculados a **Cases** para ayudar en la resolución de problemas.
+    - Los Articles se almacenan en la **Knowledge Base** de Salesforce.
+
+## Diagrama UML
+
+
+<!-- Agrega dos líneas en blanco entre las secciones -->
+
+# Ejercicio 6: Sales force
+
+##Soluciones de Salesforce
+
+### A. ¿Qué es Salesforce?
+
+Salesforce es una plataforma de gestión de relaciones con clientes (CRM) basada en la nube que proporciona herramientas para gestionar diferentes áreas empresariales. Ofrece soluciones para automatizar y personalizar procesos, analizar datos y colaborar en tiempo real.
+
+### B. ¿Qué es Sales Cloud?
+
+Sales Cloud es una solución dentro de Salesforce diseñada para gestionar y automatizar el proceso de ventas. Proporciona herramientas para seguimiento de oportunidades, gestión de contactos y cuentas, generación de informes y pronósticos de ventas, mejorando así la eficiencia del equipo de ventas.
+
+### C. ¿Qué es Service Cloud?
+
+Service Cloud es una solución de Salesforce enfocada en la atención al cliente y la gestión de servicios. Ofrece funcionalidades para el soporte al cliente, incluyendo gestión de casos, integración de canales de comunicación, automatización de servicios y herramientas de autoservicio para mejorar la experiencia del cliente.
+
+### D. ¿Qué es Health Cloud?
+
+Health Cloud es una solución de Salesforce específica para la industria de la salud. Proporciona herramientas para gestionar la información de los pacientes, coordinar la atención médica, y facilitar la colaboración entre profesionales de la salud. Permite un enfoque más centrado en el paciente y una gestión integrada de la salud.
+
+### E. ¿Qué es Marketing Cloud?
+
+Marketing Cloud es una solución de Salesforce que permite a las empresas gestionar y automatizar sus campañas de marketing. Incluye herramientas para crear y ejecutar campañas de correo electrónico, publicidad digital, marketing social, análisis de datos y personalización de la experiencia del cliente.
