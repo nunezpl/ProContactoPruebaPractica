@@ -125,3 +125,21 @@ Los headers en un request son pares clave-valor que proporcionan información ad
 
 # Ejercicio 3: Postman
 
+
+## 1. Realizar un request GET
+
+Realiza una solicitud GET a la siguiente URL para obtener los datos actuales:
+https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+
+![Ejercicio 3 punto 1.jpg](Ejercicio 3 punto 1.jpg)
+
+## 2. Realizar un request POST a la URL anterior, y con body: 
+
+## 3. Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json 
+
+## ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+
+La petición POST realizada en el punto 2 añade nuevos datos a la base de datos. Cuando realizas la solicitud GET nuevamente en el punto 3, puedes observar que los datos enviados en la petición POST se han añadido a la respuesta del GET. Específicamente, se verá un nuevo objeto en la respuesta JSON con la información proporcionada en la solicitud POST. Esta diferencia muestra cómo los datos nuevos se reflejan en la base de datos y se recuperan en la solicitud GET subsiguiente.
+
+
+
